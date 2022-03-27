@@ -19,15 +19,13 @@ int main() {
   if (userNumber > 0) {
     // output
     std::cout << userNumber << " is a positive number." << std::endl;
-    std::cout << "\nDone." << std::endl;
   } else if (userNumber < 0) {
     std::cout << userNumber << " is a negative number." << std::endl;
-    std::cout << "\nDone." << std::endl;
   } else if (userNumber == 0) {
     std::cout << "Your number is just zero." << std::endl;
-    std::cout << "\nDone." << std::endl;
   } else {
     std::cout << " Something went wrong." << std::endl;
-    std::cout << "\nDone." << std::endl;
   }
+
+  std::cout << "\nDone." << std::endl;
 }
